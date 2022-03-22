@@ -11,14 +11,6 @@ export default function App() {
       <div className="buttons p-5">
         <h5>Buttons</h5>
         <Buttons />
-        {/* <div className="row">
-          <div className="col">
-            <Buttons />
-          </div>
-          <div className="col">
-            <Buttons />
-          </div>
-        </div> */}
       </div>
     </div>
   );

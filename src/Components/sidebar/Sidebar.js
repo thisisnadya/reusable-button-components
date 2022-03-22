@@ -9,9 +9,7 @@ const Sidebar = () => {
       </h6>
       <ul>
         {navs.map((nav) => (
-          <li className={`py-2 ${nav === "Buttons" ? "fw-bold" : ""}`}>
-            {nav}
-          </li>
+          <li className={`py-2 ${nav === "Buttons" ? "bold" : ""}`}>{nav}</li>
         ))}
       </ul>
     </div>
