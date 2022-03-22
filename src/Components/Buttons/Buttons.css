@@ -1,0 +1,31 @@
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+button {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.box3,
+.box4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.box5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box6 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+p,
+a {
+  color: #888;
+  font-family: "Ubunto Mono", monospace;
+  font-size: 11px;
+}
